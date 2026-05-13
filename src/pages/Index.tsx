@@ -400,8 +400,12 @@ export default function Index() {
 
       {/* Footer */}
       <footer className="py-8 px-4 md:px-8 border-t border-black">
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
           <span className="font-bold tracking-tighter">SNAKE</span>
+          <div className="text-center">
+            <div className="text-sm font-bold uppercase tracking-widest">Быков Кирилл</div>
+            <div className="text-xs text-neutral-400 uppercase tracking-widest">Проект «Змейка» · Гимназия №13</div>
+          </div>
           <span className="text-sm text-neutral-400 uppercase tracking-widest">Классическая игра</span>
         </div>
       </footer>
